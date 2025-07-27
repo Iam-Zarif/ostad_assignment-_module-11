@@ -71,3 +71,19 @@ a:hover{
   color: #555;
   max-width: 500px;
 }
+
+
+
+/* responsiveness */
+
+@media (max-width: 768px){
+    .projects, .hero{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-text h1,  .hero-text,p{
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+}

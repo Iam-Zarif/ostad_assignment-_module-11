@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./my_photo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./my_photo.jpg" type="image/x-icon" />
     <title>portfolio</title>
   </head>
   <body style="background-color: #f0f1f5">
@@ -19,52 +19,147 @@
       </nav>
     </section>
 
+    <section style="margin-top: 120px; display: flex; justify-content: center">
+      <div class="hero"
+        style="display: flex; align-items: center; gap: 40px; max-width: 1000px"
+      >
+        <img
+          src="./my_photo.jpg"
+          alt="My Photo"
+          width="400"
+          height="400"
+          style="border-radius: 50%; object-fit: cover; border: 5px solid #ccc"
+        />
 
+        <div class="hero-text" >
+          <h1
+            style="
+              font-size: 2.5rem;
+              margin-bottom: 10px;
+              font-weight: bold;
+              color: #333;
+            "
+          >
+            Hi, I'm Mostofa Fatin
+          </h1>
+          <p style="font-size: 1.2rem; color: #555; max-width: 500px">
+            I'm a passionate frontend developer specialized in building modern,
+            responsive websites using HTML, CSS, JavaScript and React. Let's
+            build something amazing together.
+          </p>
+        </div>
+      </div>
+    </section>
 
-   <section style="margin-top: 120px; display: flex; justify-content: center;">
-  <div style="display: flex; align-items: center; gap: 40px; max-width: 1000px;">
-    <img
-      src="./my_photo.jpg"
-      alt="My Photo"
-      width="400"
-      height="400"
-      style="border-radius: 50%; object-fit: cover; border: 5px solid #ccc;"
-    />
-
-    <div>
-      <h1 style="font-size: 2.5rem; margin-bottom: 10px; font-weight: bold; color: #333;">
-        Hi, I'm Mostofa Fatin
-      </h1>
-      <p style="font-size: 1.2rem; color: #555; max-width: 500px;">
-        I'm a passionate frontend developer specialized in building modern, responsive websites using HTML, CSS, JavaScript and React. Let's build something amazing together.
+    <section style="margin-top: 120px">
+      <p style="text-align: center; font-size: 40px; font-weight: 600">
+        My Skills
       </p>
-    </div>
-  </div>
-</section>
+      <div
+        style="
+          margin-top: 70px;
+          display: flex;
+          justify-content: center;
+          gap: 60px;
+          flex-wrap: wrap;
+          align-items: center;
+        "
+      >
+        <img
+          src="./html-5.png"
+          alt="HTML5"
+          style="width: 80px; transition: transform 0.3s"
+        />
+        <img
+          src="./css-3.png"
+          alt="CSS3"
+          style="width: 80px; transition: transform 0.3s"
+        />
+        <img
+          src="./js.png"
+          alt="JavaScript"
+          style="width: 80px; transition: transform 0.3s"
+        />
+        <img
+          src="./react.png"
+          alt="React"
+          style="width: 80px; transition: transform 0.3s"
+        />
+      </div>
+    </section>
 
 
-<section
-  style="
-    margin-top: 120px;
-  "
->
-<p style="text-align: center; font-size: 40px; font-weight: 600;">My Skills</p>
- <div  style="
- 
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-    align-items: center;
-  ">
-     <img src="./html-5.png" alt="HTML5" style="width: 80px; transition: transform 0.3s;" />
-  <img src="./css-3.png" alt="CSS3" style="width: 80px; transition: transform 0.3s;" />
-  <img src="./js.png" alt="JavaScript" style="width: 80px; transition: transform 0.3s;" />
-  <img src="./react.png" alt="React" style="width: 80px; transition: transform 0.3s;" />
- </div>
-</section>
+
+    <section style="margin-top: 120px;">
+        <p style="text-align: center; font-size: 40px; font-weight: 600">Projcets</p>
+        <p style="text-align: center; color: #555; margin-top: 10px;">Here are my recent projects that showcase my skills and experinces</p>
+
+        <div style="max-width: 80%; margin: 0 auto; margin-top: 40px;" class="flex projects items-center justify-between gap-2rem">
+            <div style="background-color: white; border-radius: 8px; padding: 20px;">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 20px;">Project 1</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi sit officiis aperiam fugit voluptatibus dicta sint molestiae soluta error.</p>
+
+                <div style="gap: 10px; margin-top: 20px;" class="flex items-center">
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./github.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Code</p>
+                    </div>
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./link.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Demo</p>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: white; border-radius: 8px; padding: 20px;">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 20px;">Project 1</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi sit officiis aperiam fugit voluptatibus dicta sint molestiae soluta error.</p>
+
+                <div style="gap: 10px; margin-top: 20px;" class="flex items-center">
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./github.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Code</p>
+                    </div>
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./link.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Demo</p>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: white; border-radius: 8px; padding: 20px;">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-weight: 600; font-size: 20px;">Project 1</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi sit officiis aperiam fugit voluptatibus dicta sint molestiae soluta error.</p>
+
+                <div style="gap: 10px; margin-top: 20px;" class="flex items-center">
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./github.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Code</p>
+                    </div>
+                    <div style="border: 1px solid #7375f8; padding: 8px; border-radius: 8px; gap:4px; cursor: pointer;" class="flex items-center">
+                        <img src="./link.png" width="16px" alt="">
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color:#7375f8 ;">Demo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+
+
+    <footer>
+        <div
+            style="
+            margin-top: 80px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            "
+        >
+            <p style="margin: 0; font-size: 14px; font-family: monospace;">
+            &copy; 2025 Mostofa Fatin. All rights reserved.
+            </p>
+        </div>
+    </footer>
   </body>
 </html>
